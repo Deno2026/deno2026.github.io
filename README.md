@@ -1,0 +1,9 @@
+# Deno2026.github.io
+
+Account-level GitHub Pages entrypoint for DENO.
+
+- Public root: <https://deno2026.github.io/>
+- Primary destination: <https://deno2026.github.io/Deno-AI-HUB/>
+- Purpose: expose the approved DENO favicon at the hostname root and direct visitors to DENO AI HUB.
+
+The site intentionally has no custom domain or `CNAME` configuration.
