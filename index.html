@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0F0E12">
-    <meta http-equiv="refresh" content="0; url=/Deno-AI-HUB/">
-    <title>DENO AI HUB</title>
-    <link rel="canonical" href="https://deno2026.github.io/Deno-AI-HUB/">
+    <meta name="description" content="DENO AI tools, creator workflows, and community links.">
+    <title>DENO</title>
+    <link rel="canonical" href="https://deno2026.github.io/">
     <link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -17,9 +17,13 @@
     <style>
       :root {
         color-scheme: dark;
-        font-family: Arial, sans-serif;
+        font-family: Arial, "Noto Sans KR", sans-serif;
         background: #0f0e12;
         color: #e8e6e1;
+      }
+
+      * {
+        box-sizing: border-box;
       }
 
       body {
@@ -30,15 +34,84 @@
         background: #0f0e12;
       }
 
-      a {
-        color: #f2ff59;
+      main {
+        width: min(760px, calc(100% - 48px));
+        padding: 56px 0;
+      }
+
+      .signal {
+        width: 64px;
+        height: 4px;
+        margin-bottom: 32px;
+        background: #f2ff59;
+      }
+
+      .mark {
+        width: 120px;
+        height: 120px;
+        display: block;
+        margin-bottom: 28px;
+      }
+
+      .index {
+        margin: 0 0 12px;
+        color: #a3a6ad;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.28em;
+      }
+
+      h1 {
+        margin: 0;
+        color: #f0eee8;
+        font-size: clamp(44px, 9vw, 88px);
+        line-height: 0.94;
+        letter-spacing: -0.055em;
+      }
+
+      p {
+        max-width: 520px;
+        margin: 24px 0 36px;
+        color: #a3a6ad;
+        font-size: 17px;
+        line-height: 1.65;
+      }
+
+      .enter {
+        display: inline-flex;
+        min-height: 48px;
+        align-items: center;
+        padding: 0 22px;
+        border: 1px solid #f2ff59;
+        color: #0f0e12;
+        background: #f2ff59;
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-decoration: none;
+      }
+
+      .enter:focus-visible {
+        outline: 2px solid #f0eee8;
+        outline-offset: 4px;
+      }
+
+      .rule {
+        height: 1px;
+        margin-top: 64px;
+        background: #2e1e38;
       }
     </style>
-    <script>
-      window.location.replace("/Deno-AI-HUB/");
-    </script>
   </head>
   <body>
-    <p><a href="/Deno-AI-HUB/">DENO AI HUB 열기</a></p>
+    <main>
+      <div class="signal" aria-hidden="true"></div>
+      <img class="mark" src="/icon-192.png" width="120" height="120" alt="DENO">
+      <div class="index">IMAGE · VIDEO · AGENTS · WORK</div>
+      <h1>DENO AI HUB</h1>
+      <p>AI 제작 도구와 크리에이터 워크플로우를 한곳에서 확인하세요.</p>
+      <a class="enter" href="https://deno2026.github.io/Deno-AI-HUB/">AI HUB 열기</a>
+      <div class="rule" aria-hidden="true"></div>
+    </main>
   </body>
 </html>
