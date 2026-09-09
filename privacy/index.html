@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0F0E12">
+    <meta name="description" content="DENO Social Publishing 개인정보처리방침.">
+    <title>개인정보처리방침 · DENO</title>
+    <link rel="canonical" href="https://deno2026.github.io/privacy/">
+    <link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Arial, "Noto Sans KR", sans-serif;
+        background: #0f0e12;
+        color: #e8e6e1;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #0f0e12; }
+      main { width: min(760px, calc(100% - 48px)); margin: 0 auto; padding: 64px 0 96px; }
+      .signal { width: 64px; height: 4px; margin-bottom: 32px; background: #f2ff59; }
+      .index { margin: 0 0 12px; color: #a3a6ad; font-size: 12px; font-weight: 700; letter-spacing: 0.28em; }
+      h1 { margin: 0 0 8px; color: #f0eee8; font-size: clamp(32px, 6vw, 52px); line-height: 1.05; letter-spacing: -0.04em; }
+      .updated { margin: 0 0 48px; color: #6f727a; font-size: 13px; }
+      h2 { margin: 44px 0 14px; color: #f0eee8; font-size: 19px; letter-spacing: -0.01em; }
+      p, li { color: #a3a6ad; font-size: 16px; line-height: 1.75; }
+      p { margin: 0 0 14px; }
+      ul { margin: 0 0 14px; padding-left: 20px; }
+      li { margin-bottom: 8px; }
+      strong { color: #e8e6e1; font-weight: 700; }
+      code { color: #f2ff59; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px; }
+      a { color: #f2ff59; }
+      .back { display: inline-block; margin-top: 56px; color: #a3a6ad; font-size: 14px; text-decoration: none; border-bottom: 1px solid #34363d; padding-bottom: 2px; }
+      .back:hover { color: #e8e6e1; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="signal"></div>
+      <p class="index">DENO SOCIAL PUBLISHING</p>
+      <h1>개인정보처리방침</h1>
+      <p class="updated">최종 수정 2026년 9월 10일</p>
+
+      <p>
+        DENO Social Publishing(이하 "이 앱")은 <strong>운영자 본인이 만든 영상을 본인의 소셜 계정에
+        게시하기 위한 개인용 도구</strong>입니다. 일반 사용자를 대상으로 배포하지 않으며, 운영자 외의
+        계정에 접근하지 않습니다.
+      </p>
+
+      <h2>수집하지 않는 정보</h2>
+      <p>이 앱은 다음을 수집하거나 저장하지 않습니다.</p>
+      <ul>
+        <li>제3자의 개인정보, 연락처, 프로필 정보</li>
+        <li>게시물 시청자·방문자에 관한 정보</li>
+        <li>광고 식별자, 위치 정보, 기기 식별자</li>
+        <li>결제 정보</li>
+      </ul>
+
+      <h2>처리하는 정보</h2>
+      <p>게시 기능을 수행하는 데 필요한 최소한만 다룹니다.</p>
+      <ul>
+        <li>
+          <strong>액세스 토큰</strong> — 운영자가 자신의 계정을 연결할 때 각 플랫폼이 발급합니다.
+          <strong>운영자 본인의 컴퓨터에만 저장</strong>되며 외부 서버로 전송하지 않습니다.
+          사용하는 권한 범위는 Instagram <code>instagram_business_basic</code>,
+          <code>instagram_business_content_publish</code>, Threads <code>threads_basic</code>,
+          <code>threads_content_publish</code>입니다. 모두 게시에 필요한 범위이며 메시지·팔로워
+          목록에는 접근하지 않습니다.
+        </li>
+        <li>
+          <strong>계정 식별자와 사용자명</strong> — 게시 직전에 연결된 계정이 의도한 계정이 맞는지
+          확인하는 용도로만 조회합니다. 별도로 보관하지 않습니다.
+        </li>
+        <li>
+          <strong>게시할 영상 파일</strong> — 각 플랫폼이 파일을 직접 받지 않고 주소로 가져가므로,
+          게시하는 동안에만 Cloudflare R2 저장소에 올려 두고 <strong>시간이 지나면 만료되는 서명 주소</strong>를
+          플랫폼에 전달합니다. 게시가 끝나면 그 파일을 삭제합니다.
+        </li>
+      </ul>
+
+      <h2>제3자 제공</h2>
+      <p>
+        어떤 정보도 제3자에게 판매·대여·제공하지 않습니다. 영상과 게시 문구는 운영자가 선택한
+        플랫폼(YouTube, Instagram, Threads, X)에 게시 목적으로만 전달되며, 그 이후의 처리는 각
+        플랫폼의 방침을 따릅니다.
+      </p>
+
+      <h2>보관 기간</h2>
+      <ul>
+        <li>액세스 토큰 — 운영자가 연결을 해제하거나 파일을 삭제할 때까지</li>
+        <li>임시 업로드한 영상 — 게시 완료 직후 삭제</li>
+        <li>그 밖의 개인정보 — 보관하지 않음</li>
+      </ul>
+
+      <h2>삭제</h2>
+      <p>
+        이 앱은 서버에 개인정보를 보관하지 않으므로, 각 플랫폼에서 앱 연결을 해제하는 것만으로 삭제가
+        완료됩니다. 절차는 <a href="/data-deletion/">데이터 삭제 안내</a>에 있습니다.
+      </p>
+
+      <h2>방침 변경</h2>
+      <p>
+        이 방침이 바뀌면 이 페이지에서 갱신하고 위의 최종 수정일을 고칩니다.
+      </p>
+
+      <a class="back" href="/">← DENO</a>
+    </main>
+  </body>
+</html>
